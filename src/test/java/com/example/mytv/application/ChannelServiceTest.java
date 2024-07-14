@@ -5,8 +5,8 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.willDoNothing;
 
-import com.example.mytv.adapter.in.api.ChannelRequest;
-import com.example.mytv.adapter.in.api.ChannelSnippetRequest;
+import com.example.mytv.adapter.in.api.dto.ChannelRequest;
+import com.example.mytv.adapter.in.api.dto.ChannelSnippetRequest;
 import com.example.mytv.application.port.out.LoadChannelPort;
 import com.example.mytv.application.port.out.LoadUserPort;
 import com.example.mytv.application.port.out.SaveChannelPort;

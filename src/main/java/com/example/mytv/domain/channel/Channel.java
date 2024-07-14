@@ -1,6 +1,6 @@
 package com.example.mytv.domain.channel;
 
-import com.example.mytv.adapter.in.api.ChannelSnippetRequest;
+import com.example.mytv.adapter.in.api.dto.ChannelSnippetRequest;
 import com.example.mytv.adapter.out.redis.channel.ChannelRedisHash;
 import com.example.mytv.domain.User;
 import lombok.AllArgsConstructor;
